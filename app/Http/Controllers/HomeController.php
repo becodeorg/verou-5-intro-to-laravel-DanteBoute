@@ -10,14 +10,11 @@ use App\Http\Controllers\Controller;
 class HomeController extends Controller
 {
     // Your "index" method, loading the page.
-    public function index()
+    public function home()
     {
         // Do stuff here ...
 
-        // Returning the "welcome.blade.php" file as a view.
-        return view("welcome");
+        // Returning the "home.blade.php" file as a view.
+        return view("home");
     }
-
-    public function posts() {
-        return view("posts");
-}}
+}
