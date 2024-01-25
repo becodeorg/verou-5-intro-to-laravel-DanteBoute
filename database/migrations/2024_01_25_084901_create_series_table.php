@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('series', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->text('exerpt');
+            $table->text('excerpt');
             $table->text('body');
             $table->string('creator');
             $table->string('actors');

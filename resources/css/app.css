@@ -1,9 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
+/* Resetting default margin and padding */
+html, body, ul, li {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
+/* Styling the header */
 header {
     background-color: #333;
     color: white;
@@ -11,6 +13,7 @@ header {
     text-align: center;
 }
 
+/* Styling the navigation menu */
 nav ul {
     list-style: none;
     padding: 0;
@@ -22,18 +25,31 @@ nav ul li {
     margin-right: 20px;
 }
 
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the main content */
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
 }
 
+/* Styling series container */
 .series-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+/* Styling series cards */
 .series-card {
     width: 200px;
     margin: 10px;
@@ -46,6 +62,7 @@ main {
     border-radius: 8px;
 }
 
+/* Styling the footer */
 footer {
     background-color: #333;
     color: white;

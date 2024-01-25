@@ -1,4 +1,4 @@
-@include('header');
+@include('header')
 
 <ul>
     @foreach ($series as $serie)
