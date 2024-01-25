@@ -16,7 +16,7 @@ class SerieController extends Controller
         ]);   
     }
 
-    // the $id is comming from the value that is in the users/{id}
+    // the $id is comming from the value that is in the series/{id}
     public function show ($id)
     {
         $serie = Serie::find($id);

@@ -12,7 +12,7 @@
         <h1>Your TV Series Website</h1>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/series">Home</a></li>
                 <!-- Add more navigation links if needed -->
             </ul>
         </nav>
